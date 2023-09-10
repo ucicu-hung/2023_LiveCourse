@@ -9,14 +9,13 @@
 @import "./helpers/variables";
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
-
+// css reset
 @import "./reset.scss";
+// 全站設定
+@import './base.scss';
+//版型
 @import './layout/header.scss';
 @import './layout/footer.scss';
 
-// @import "../scss/_base.scss";
-// @import "../scss/base.scss";
-
-
-// layout 
+// layout 頁面
 @import './pages/index.scss';
