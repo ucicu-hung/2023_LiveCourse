@@ -1,0 +1,22 @@
+// @import './layout/header.scss';
+// @import './layout/footer.scss';
+
+
+// @import './pages/index.scss';
+
+
+@import "../../node_modules/bootstrap/scss/functions";
+@import "./helpers/variables";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+
+@import "./reset.scss";
+@import './layout/header.scss';
+@import './layout/footer.scss';
+
+// @import "../scss/_base.scss";
+// @import "../scss/base.scss";
+
+
+// layout 
+@import './pages/index.scss';
